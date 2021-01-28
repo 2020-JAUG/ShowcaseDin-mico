@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -26,7 +26,7 @@ body {
 }
 
 #showcase {
-    background-image: url(imagen/Showcase3.png);
+    background-image: url(imagen/Showcase.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,8 +34,16 @@ body {
     height: 550px;
     margin: auto;
     position: relative;
-    right: 150px;
-   
+    right: 40px;
+}
+
+.basket {
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    right: 160px;
+    top: 239px;
+
 }
 
 .content {
@@ -43,11 +51,11 @@ body {
 }
 
 #wine {
-    width: 195px;
+    width: 150px;
     height: 93px;
     position: absolute;
-    top: 128px;
-    right: 150px;
+    top: 178px;
+    right: 349px;
     margin-top: 20px;
 }
 
@@ -55,83 +63,76 @@ body {
     width: 270px;
     height: 93px;
     position: absolute;
-    top: 180px;
-    left: 178px;
+    top: 215px;
+    left: 9px;
 }
 
 #bread {
     width: 242px;
     height: 73px;
     position: absolute;
-    top: 55px;
-    left: 180px;
+    top: 120px;
+    left: 15px;
 }
 
 #flour {
-    width: 200px;
-    right: 173px;
+    width: 190px;
+    left: 260px;
     position: absolute;
-    top: 55px;
+    top: 125px;
 }
 
 #milk {
-    width: 190px;
-    right: 163px;
+    width: 165px;
+    right: 350px;
     position: absolute;
-    top: 270px;
+    top: 275px;
 }
 
 #rice {
     width: 170px;
-    right: 165px;
+    right: 340px;
     position: absolute;
-    top: 395px;
+    top: 360px;
 }
 
 #water {
-    width: 120px;
-    left: 170px;
+    width: 110px;
+    left: 10px;
     position: absolute;
-    top: 365px;
+    top: 340px;
 }
 
 #chips {
     width: 170px;
     position: absolute;
-    left: 295px;
-    top: 385px;
+    left: 120px;
+    top: 347px;
 }
 
 #ketchup {
     width: 125px;
     position: absolute;
-    left: 190px;
-    top: 270px;
+    left: 20px;
+    top: 275px;
 }
 
 #oil {
-    width: 140px;
+    width: 120px;
     position: absolute;
-    left: 313px;
-    top: 260px;
-}
-
-#shoppingCar {
-    width: 200px;
-    position: absolute;
-    right: -90px;
-    top: 80px;
+    left: 153px;
+    top: 265px;
 }
 
 #total {
     position: absolute;
-    right: -120px;
-    top: 90px;
+    right: 80px;
+    top: 100px;
 }
 
-.vinos {
+.wine {
     width: auto;
-    height: 80px;
+    height: 65px;
     margin-top: 8px;
     cursor: move;
 }
@@ -153,7 +154,7 @@ body {
 }
 
 .flour {
-    height: 50px;
+    height: 45px;
     width: auto;
     object-fit: contain;
     margin-top: 20px;
@@ -177,7 +178,7 @@ body {
 }
 
 .water {
-    height: 70px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     margin-top: 20px;
@@ -208,19 +209,19 @@ body {
     cursor: move;
 }
 
-.car {
-    width: 300px;
-    padding: 80px;
-    overflow: hidden;
-}
-
 .text-right {
     font-style: oblique;
     font-size: xx-large;
 }
 
 .btn-remove {
-    width: 90px;
+    width: 100px;
     border-radius: 12px;
+    background-color: rgba(221, 209, 192, 0.536);
+}
 
+#clear {
+    position: absolute;
+    right: 118px;
+    top: 380px;
 }

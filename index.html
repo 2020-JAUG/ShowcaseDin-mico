@@ -14,13 +14,14 @@
          <div id="showcase">
 
             <div id="wine">
-                <img class="vinos" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine1">
-                <img class="vinos" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine2">
-                <img class="vinos" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine3">
-                <img class="vinos" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine4">
-                <img class="vinos" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine5">
-                <img class="vinos" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine6">
-                <img class="vinos" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine6">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine1">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine2">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine3">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine4">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine5">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine6">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine7">
+                <img class="wine" src="imagen/wine2.png" alt="wine" draggable="true" ondragstart="drag(event)" id="wine8">
             </div>
 
             <div id ="peanutButter">
@@ -90,16 +91,18 @@
             </div>
 
             <div id="total">
-                <span id="total" class="pay">Total to pay:</span>
-                <p class="text-right">Total to pay: <span id="total"></span> &euro;</p>
+                <p class="text-right"><span id="pay"></span> &euro;
             </div>
 
-            <div id="shoppingCar">
-                <img class="car" src="imagen/car.png" alt="car" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <button id="remove" class="btn-remove">Remove</button>
+            <div>
+                <img id="shoppingBasket" class="basket" src="imagen/basket.png" alt="basket" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+            
+            <div id="clear">
+                <button type="reset" onclick="remove()" class="btn-remove">Remove</button>
             </div>
 
-                 <script src="main.js"></script>
+                <script src="main.js"></script>
         </div>
     </div>
 </div>
