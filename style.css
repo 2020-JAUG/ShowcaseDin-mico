@@ -26,7 +26,7 @@ body {
 }
 
 #showcase {
-    background-image: url(imagen/Showcase.png);
+    background-image: url("./imagen/Showcase.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,6 +44,15 @@ body {
     right: 160px;
     top: 239px;
 
+}
+
+.div {
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    right: 160px;
+    top: 239px;
+    inset-block-end: 0px;
 }
 
 .content {

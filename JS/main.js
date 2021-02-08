@@ -43,9 +43,11 @@ function drop(ev) {
 }
 
 function remove() {
-    var last = document.getElementById("shoppingBasket").parentElement;
-    last.removeChild(document.getElementById("shoppingBasket"));
+
+    var last = document.getElementById("empty").appendChild;
+    last.removeLastChild(document.getElementById("empty")).node.appendChild;
 }
+
 
 /*function remove () {
     var last = document.getElementById('shoppingBasket');
