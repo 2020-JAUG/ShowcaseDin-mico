@@ -44,8 +44,8 @@ function drop(ev) {
 
 function remove() {
 
-    var last = document.getElementById("empty").appendChild;
-    last.removeLastChild(document.getElementById("empty")).node.appendChild;
+    var last = document.getElementById("shoppingBasket").appendChild;
+    last.removeLastChild(document.getElementById("shoppingBasket")).node.appendChild;
 }
 
 
