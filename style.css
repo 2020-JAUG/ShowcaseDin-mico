@@ -224,6 +224,7 @@ body {
 }
 
 .btn-remove {
+    cursor: pointer;
     width: 100px;
     border-radius: 12px;
     background-color: rgba(221, 209, 192, 0.536);
